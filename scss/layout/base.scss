@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu', Arial, Helvetica, sans-serif;
+    line-height: 1.42;
+    color: $dark;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.visuallyhidden:not(:fokus) :not(:active) {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: insert(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

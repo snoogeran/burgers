@@ -1,0 +1,25 @@
+.hero {
+  background: url("/hero_bg.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: fixed; }
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 10px; }
+
+.best {
+  background: black; }

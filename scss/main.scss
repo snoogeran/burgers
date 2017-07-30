@@ -1,0 +1,10 @@
+// Config
+@import "config/variables";
+@import "config/mixins";
+
+//Base
+@import "layout/fonts";
+@import "layout/base";
+@import "layout/adjustment";
+
+@import "sections/hero";
